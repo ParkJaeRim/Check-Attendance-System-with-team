@@ -5,7 +5,7 @@ import time
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 Id=raw_input('Enter your ID')
-img = cv2.imread('10.jpg')
+img = cv2.imread('file name.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 timestr =time.strftime("%Y%m%d-%H%M%S")
