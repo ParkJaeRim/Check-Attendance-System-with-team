@@ -1,5 +1,5 @@
 # USAGE
-# python3 stitch.py --first v8.png --second v7.png 
+# python stitch.py --first v8.png --second v7.png 
 
 # import the necessary packages
 from picamera import PiCamera
